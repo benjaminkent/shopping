@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import Data from './Data.json'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 class MensPants extends Component {
   render() {
-    const product = this.props.match.params.product
-    console.log(product)
+    const clothing = this.props.match.params.category
+    const items = this.props.match.params.product
 
-    const mensPants = Data.filter(
-      card => card.category === 'Mens' && card.product === 'Pants'
+    const departmentItems = Data.filter(
+      card => card.category === `${clothing}` && card.product === `${items}`
     )
 
     return (
@@ -15,36 +16,36 @@ class MensPants extends Component {
         <div className="tabs is-centered">
           <ul>
             <li>
-              <a>
+              <Link to="/">
                 <span className="icon is-small">
                   <i className="fas fa-home" />
                 </span>
                 <span>TUBSS Home</span>
-              </a>
+              </Link>
             </li>
             <li className="is-active">
-              <a>
+              <Link to="/mens">
                 <span className="icon is-small">
                   <i className="fas fa-male" />
                 </span>
                 <span>Mens</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/womens">
                 <span className="icon is-small">
                   <i className="fas fa-female" />
                 </span>
                 <span>Womens</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
                 <span>Dogs</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -52,7 +53,7 @@ class MensPants extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong>Men's Department</strong>
+              <strong>Mens Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
@@ -82,9 +83,9 @@ class MensPants extends Component {
         <section className="section">
           <div className="container">
             <div className="columns is-multiline">
-              {mensPants.map(card => {
+              {departmentItems.map(card => {
                 return (
-                  <div key={card.id} className="column is-one-third">
+                  <div className="column is-one-third">
                     <div className="card">
                       <div className="card-content">
                         <div className="content">

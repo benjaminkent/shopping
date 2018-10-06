@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$47.51",
     "rating": 5,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$33.39",
     "rating": 1,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$101.55",
     "rating": 1,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$89.75",
     "rating": 2,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$17.04",
     "rating": 4,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$94.97",
     "rating": 2,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$144.91",
     "rating": 4,
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$69.98",
     "rating": 3,
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$24.62",
     "rating": 2,
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$81.09",
     "rating": 2,
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$23.86",
     "rating": 3,
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$131.83",
     "rating": 1,
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$132.33",
     "rating": 3,
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$86.77",
     "rating": 1,
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$99.77",
     "rating": 4,
@@ -136,7 +136,7 @@
   },
   {
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$14.30",
     "rating": 2,
@@ -145,7 +145,7 @@
   {
     "id": 17,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$13.12",
     "rating": 3,
@@ -154,7 +154,7 @@
   {
     "id": 18,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$67.34",
     "rating": 4,
@@ -163,7 +163,7 @@
   {
     "id": 19,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$139.72",
     "rating": 3,
@@ -172,7 +172,7 @@
   {
     "id": 20,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$18.02",
     "rating": 1,
@@ -181,7 +181,7 @@
   {
     "id": 21,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$39.04",
     "rating": 5,
@@ -190,7 +190,7 @@
   {
     "id": 22,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$110.53",
     "rating": 3,
@@ -199,7 +199,7 @@
   {
     "id": 23,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$146.68",
     "rating": 5,
@@ -208,7 +208,7 @@
   {
     "id": 24,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$68.85",
     "rating": 4,
@@ -217,7 +217,7 @@
   {
     "id": 25,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$79.52",
     "rating": 4,
@@ -226,7 +226,7 @@
   {
     "id": 26,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$36.76",
     "rating": 3,
@@ -235,7 +235,7 @@
   {
     "id": 27,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$56.10",
     "rating": 3,
@@ -244,7 +244,7 @@
   {
     "id": 28,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$108.81",
     "rating": 2,
@@ -253,7 +253,7 @@
   {
     "id": 29,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$97.78",
     "rating": 2,
@@ -262,7 +262,7 @@
   {
     "id": 30,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$25.16",
     "rating": 1,
@@ -271,7 +271,7 @@
   {
     "id": 31,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$59.48",
     "rating": 3,
@@ -280,7 +280,7 @@
   {
     "id": 32,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$29.53",
     "rating": 1,
@@ -289,7 +289,7 @@
   {
     "id": 33,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$113.61",
     "rating": 4,
@@ -298,7 +298,7 @@
   {
     "id": 34,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$109.26",
     "rating": 1,
@@ -307,7 +307,7 @@
   {
     "id": 35,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$118.93",
     "rating": 1,
@@ -316,7 +316,7 @@
   {
     "id": 36,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$18.98",
     "rating": 3,
@@ -325,7 +325,7 @@
   {
     "id": 37,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$17.01",
     "rating": 4,
@@ -334,7 +334,7 @@
   {
     "id": 38,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$39.12",
     "rating": 5,
@@ -343,7 +343,7 @@
   {
     "id": 39,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$89.22",
     "rating": 3,
@@ -352,7 +352,7 @@
   {
     "id": 40,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$110.64",
     "rating": 5,
@@ -361,7 +361,7 @@
   {
     "id": 41,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$82.25",
     "rating": 3,
@@ -370,7 +370,7 @@
   {
     "id": 42,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$104.86",
     "rating": 1,
@@ -379,7 +379,7 @@
   {
     "id": 43,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$12.55",
     "rating": 2,
@@ -388,7 +388,7 @@
   {
     "id": 44,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$44.11",
     "rating": 1,
@@ -397,7 +397,7 @@
   {
     "id": 45,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$27.80",
     "rating": 2,
@@ -406,7 +406,7 @@
   {
     "id": 46,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$86.99",
     "rating": 2,
@@ -415,7 +415,7 @@
   {
     "id": 47,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$123.33",
     "rating": 4,
@@ -424,7 +424,7 @@
   {
     "id": 48,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$84.80",
     "rating": 5,
@@ -433,7 +433,7 @@
   {
     "id": 49,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$33.24",
     "rating": 4,
@@ -442,7 +442,7 @@
   {
     "id": 50,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$146.72",
     "rating": 5,
@@ -451,7 +451,7 @@
   {
     "id": 51,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$79.15",
     "rating": 5,
@@ -460,7 +460,7 @@
   {
     "id": 52,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$35.91",
     "rating": 3,
@@ -469,7 +469,7 @@
   {
     "id": 53,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$130.86",
     "rating": 2,
@@ -478,7 +478,7 @@
   {
     "id": 54,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$28.12",
     "rating": 2,
@@ -487,7 +487,7 @@
   {
     "id": 55,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$52.14",
     "rating": 4,
@@ -496,7 +496,7 @@
   {
     "id": 56,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$67.13",
     "rating": 3,
@@ -505,7 +505,7 @@
   {
     "id": 57,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$44.58",
     "rating": 4,
@@ -514,7 +514,7 @@
   {
     "id": 58,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$103.83",
     "rating": 3,
@@ -523,7 +523,7 @@
   {
     "id": 59,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$24.57",
     "rating": 1,
@@ -532,7 +532,7 @@
   {
     "id": 60,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$88.51",
     "rating": 3,
@@ -541,7 +541,7 @@
   {
     "id": 61,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$32.89",
     "rating": 3,
@@ -550,7 +550,7 @@
   {
     "id": 62,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$128.77",
     "rating": 4,
@@ -559,7 +559,7 @@
   {
     "id": 63,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$32.45",
     "rating": 2,
@@ -568,7 +568,7 @@
   {
     "id": 64,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$64.30",
     "rating": 3,
@@ -577,7 +577,7 @@
   {
     "id": 65,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$18.84",
     "rating": 3,
@@ -586,7 +586,7 @@
   {
     "id": 66,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$38.58",
     "rating": 3,
@@ -595,7 +595,7 @@
   {
     "id": 67,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$107.44",
     "rating": 3,
@@ -604,7 +604,7 @@
   {
     "id": 68,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$63.54",
     "rating": 3,
@@ -613,7 +613,7 @@
   {
     "id": 69,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$110.04",
     "rating": 2,
@@ -622,7 +622,7 @@
   {
     "id": 70,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$107.57",
     "rating": 4,
@@ -631,7 +631,7 @@
   {
     "id": 71,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$62.99",
     "rating": 3,
@@ -640,7 +640,7 @@
   {
     "id": 72,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$54.61",
     "rating": 1,
@@ -649,7 +649,7 @@
   {
     "id": 73,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$101.52",
     "rating": 2,
@@ -658,7 +658,7 @@
   {
     "id": 74,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$35.54",
     "rating": 1,
@@ -667,7 +667,7 @@
   {
     "id": 75,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$81.59",
     "rating": 1,
@@ -676,7 +676,7 @@
   {
     "id": 76,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$128.42",
     "rating": 2,
@@ -685,7 +685,7 @@
   {
     "id": 77,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$52.21",
     "rating": 4,
@@ -694,7 +694,7 @@
   {
     "id": 78,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$140.97",
     "rating": 2,
@@ -703,7 +703,7 @@
   {
     "id": 79,
     "category": "womens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$149.68",
     "rating": 3,
@@ -712,7 +712,7 @@
   {
     "id": 80,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$57.85",
     "rating": 3,
@@ -721,7 +721,7 @@
   {
     "id": 81,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$31.18",
     "rating": 4,
@@ -730,7 +730,7 @@
   {
     "id": 82,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$81.11",
     "rating": 3,
@@ -739,7 +739,7 @@
   {
     "id": 83,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$115.53",
     "rating": 2,
@@ -748,7 +748,7 @@
   {
     "id": 84,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$36.28",
     "rating": 1,
@@ -757,7 +757,7 @@
   {
     "id": 85,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$109.68",
     "rating": 1,
@@ -766,7 +766,7 @@
   {
     "id": 86,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$63.97",
     "rating": 1,
@@ -775,7 +775,7 @@
   {
     "id": 87,
     "category": "mens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
     "price": "$122.83",
     "rating": 2,
@@ -784,7 +784,7 @@
   {
     "id": 88,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$28.30",
     "rating": 2,
@@ -793,7 +793,7 @@
   {
     "id": 89,
     "category": "womens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$46.98",
     "rating": 4,
@@ -802,7 +802,7 @@
   {
     "id": 90,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$56.80",
     "rating": 1,
@@ -811,7 +811,7 @@
   {
     "id": 91,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$49.30",
     "rating": 3,
@@ -820,7 +820,7 @@
   {
     "id": 92,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$39.69",
     "rating": 2,
@@ -829,7 +829,7 @@
   {
     "id": 93,
     "category": "dogs",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$91.14",
     "rating": 1,
@@ -838,7 +838,7 @@
   {
     "id": 94,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$109.99",
     "rating": 4,
@@ -847,7 +847,7 @@
   {
     "id": 95,
     "category": "womens",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$73.22",
     "rating": 3,
@@ -856,7 +856,7 @@
   {
     "id": 96,
     "category": "mens",
-    "product": "Shoes",
+    "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71%2Bzb7XNs7L._UY395_.jpg",
     "price": "$149.79",
     "rating": 1,
@@ -865,7 +865,7 @@
   {
     "id": 97,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$61.34",
     "rating": 3,
@@ -874,7 +874,7 @@
   {
     "id": 98,
     "category": "mens",
-    "product": "Pants",
+    "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$145.07",
     "rating": 4,
@@ -883,7 +883,7 @@
   {
     "id": 99,
     "category": "dogs",
-    "product": "Pants",
+    "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$79.81",
     "rating": 4,
@@ -892,7 +892,7 @@
   {
     "id": 100,
     "category": "dogs",
-    "product": "Shirt",
+    "product": "shirts",
     "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$59.11",
     "rating": 2,

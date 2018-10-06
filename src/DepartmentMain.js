@@ -9,10 +9,6 @@ class ShirtsMain extends Component {
 
     const allProducts = Data.filter(card => card.category === `${all}`)
 
-    // const shirts = Data.filter(
-    //   card => card.category === `${type}` && card.product === 'Shirt'
-    // )
-
     return (
       <>
         <div className="tabs is-centered">
