@@ -20,7 +20,7 @@ class App extends Component {
             <li className="is-active">
               <a>
                 <span className="icon is-small">
-                  <i className="fas fa-home" />{' '}
+                  <i className="fas fa-home" />
                 </span>
                 <span>TUBSS Home</span>
               </a>
@@ -62,6 +62,11 @@ class App extends Component {
         {/* cards, this part of the page will be dynamically created with components, will route to other components */}
         <section class="section">
           <div class="container">
+            <h2 className="subtitle">
+              <i class="fas fa-arrow-circle-down arrow" />
+              Trending Now
+              <i class="fas fa-arrow-circle-down arrow" />
+            </h2>
             <div class="columns is-multiline">
               <div class="column">
                 <div class="card">
@@ -99,11 +104,66 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[6].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[8].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[9].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[1].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[0].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

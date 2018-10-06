@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/158x129.png/5fa2dd/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$47.51",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -12,7 +12,7 @@
     "id": 2,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/165x218.jpg/5fa2dd/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$33.39",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -21,7 +21,7 @@
     "id": 3,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/153x144.jpg/ff4444/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$101.55",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -30,7 +30,7 @@
     "id": 4,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/153x175.bmp/5fa2dd/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$89.75",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -39,7 +39,7 @@
     "id": 5,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/166x178.jpg/ff4444/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$17.04",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -57,7 +57,7 @@
     "id": 7,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/237x238.bmp/5fa2dd/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$144.91",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -75,7 +75,7 @@
     "id": 9,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/132x107.bmp/cc0000/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$24.62",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -84,7 +84,7 @@
     "id": 10,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/131x195.png/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$81.09",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -120,7 +120,7 @@
     "id": 14,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/197x156.jpg/cc0000/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$86.77",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -129,16 +129,15 @@
     "id": 15,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/194x199.png/5fa2dd/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$99.77",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
   },
   {
-    "id": 16,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/236x138.png/cc0000/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$14.30",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -147,7 +146,7 @@
     "id": 17,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/144x168.bmp/5fa2dd/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$13.12",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -156,7 +155,7 @@
     "id": 18,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/141x210.jpg/ff4444/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$67.34",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -174,7 +173,7 @@
     "id": 20,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/162x167.bmp/cc0000/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$18.02",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -183,7 +182,7 @@
     "id": 21,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/173x228.jpg/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$39.04",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -201,7 +200,7 @@
     "id": 23,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/138x119.bmp/5fa2dd/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$146.68",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -210,7 +209,7 @@
     "id": 24,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/191x138.bmp/dddddd/000000",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$68.85",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -219,7 +218,7 @@
     "id": 25,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/180x224.bmp/ff4444/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$79.52",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -282,7 +281,7 @@
     "id": 32,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/206x112.png/cc0000/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$29.53",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -300,7 +299,7 @@
     "id": 34,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/211x133.jpg/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$109.26",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -318,7 +317,7 @@
     "id": 36,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/196x156.png/5fa2dd/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$18.98",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -327,7 +326,7 @@
     "id": 37,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/209x163.jpg/5fa2dd/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$17.01",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -336,7 +335,7 @@
     "id": 38,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/183x143.bmp/ff4444/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$39.12",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -345,7 +344,7 @@
     "id": 39,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/185x164.bmp/cc0000/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$89.22",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -372,7 +371,7 @@
     "id": 42,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/145x195.png/dddddd/000000",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$104.86",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -381,7 +380,7 @@
     "id": 43,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/135x212.jpg/dddddd/000000",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$12.55",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -390,7 +389,7 @@
     "id": 44,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/132x207.png/5fa2dd/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$44.11",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -399,7 +398,7 @@
     "id": 45,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/126x230.bmp/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$27.80",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -408,7 +407,7 @@
     "id": 46,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/154x198.png/cc0000/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$86.99",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -417,7 +416,7 @@
     "id": 47,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/250x106.bmp/dddddd/000000",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$123.33",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -435,7 +434,7 @@
     "id": 49,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/194x184.bmp/dddddd/000000",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$33.24",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -444,7 +443,7 @@
     "id": 50,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/174x227.jpg/ff4444/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$146.72",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -453,7 +452,7 @@
     "id": 51,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/239x147.png/dddddd/000000",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$79.15",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -462,7 +461,7 @@
     "id": 52,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/237x148.bmp/ff4444/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$35.91",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -480,7 +479,7 @@
     "id": 54,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/242x122.png/5fa2dd/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$28.12",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -498,7 +497,7 @@
     "id": 56,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/238x140.jpg/ff4444/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$67.13",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -507,7 +506,7 @@
     "id": 57,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/133x235.png/dddddd/000000",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$44.58",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -516,7 +515,7 @@
     "id": 58,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/219x245.png/ff4444/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$103.83",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -552,7 +551,7 @@
     "id": 62,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/101x178.bmp/5fa2dd/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$128.77",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -561,7 +560,7 @@
     "id": 63,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/234x103.jpg/5fa2dd/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$32.45",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -579,7 +578,7 @@
     "id": 65,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/182x227.jpg/ff4444/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$18.84",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -588,7 +587,7 @@
     "id": 66,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/233x107.bmp/ff4444/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$38.58",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -597,7 +596,7 @@
     "id": 67,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/234x135.jpg/ff4444/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$107.44",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -606,7 +605,7 @@
     "id": 68,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/239x142.jpg/ff4444/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$63.54",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -642,7 +641,7 @@
     "id": 72,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/210x166.bmp/5fa2dd/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$54.61",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -651,7 +650,7 @@
     "id": 73,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/143x203.png/5fa2dd/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$101.52",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -660,7 +659,7 @@
     "id": 74,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/203x188.png/dddddd/000000",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$35.54",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -669,7 +668,7 @@
     "id": 75,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/218x174.bmp/dddddd/000000",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$81.59",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -678,7 +677,7 @@
     "id": 76,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/141x233.bmp/5fa2dd/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$128.42",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -687,7 +686,7 @@
     "id": 77,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/116x123.png/ff4444/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$52.21",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -696,7 +695,7 @@
     "id": 78,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/211x117.png/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$140.97",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -705,7 +704,7 @@
     "id": 79,
     "category": "Women",
     "product": "Shoes",
-    "image": "http://dummyimage.com/141x153.bmp/ff4444/ffffff",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsyW2ucV72uAgyzBLglIXFTyDeTtwOzwcti11wI9x516WzWxb",
     "price": "$149.68",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -714,7 +713,7 @@
     "id": 80,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/229x213.png/cc0000/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$57.85",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -732,7 +731,7 @@
     "id": 82,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/186x241.png/dddddd/000000",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$81.11",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -741,7 +740,7 @@
     "id": 83,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/248x193.jpg/cc0000/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$115.53",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -759,7 +758,7 @@
     "id": 85,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/168x196.png/dddddd/000000",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$109.68",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -768,7 +767,7 @@
     "id": 86,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/103x250.png/dddddd/000000",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$63.97",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -786,7 +785,7 @@
     "id": 88,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/249x151.png/cc0000/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$28.30",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -795,7 +794,7 @@
     "id": 89,
     "category": "Women",
     "product": "Pants",
-    "image": "http://dummyimage.com/152x217.png/ff4444/ffffff",
+    "image": "https://cdn7.bigcommerce.com/s-n29utr4wup/images/stencil/500x605/products/727/4328/WR_1964_DKL_GM__10622.1531157608.JPG?c=2",
     "price": "$46.98",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -804,7 +803,7 @@
     "id": 90,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/216x197.jpg/ff4444/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$56.80",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -813,7 +812,7 @@
     "id": 91,
     "category": "Dog",
     "product": "Shoes",
-    "image": "http://dummyimage.com/116x247.png/cc0000/ffffff",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$49.30",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -822,7 +821,7 @@
     "id": 92,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/241x138.png/5fa2dd/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$39.69",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -840,7 +839,7 @@
     "id": 94,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/156x234.bmp/cc0000/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$109.99",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -849,7 +848,7 @@
     "id": 95,
     "category": "Women",
     "product": "Shirt",
-    "image": "http://dummyimage.com/161x234.jpg/ff4444/ffffff",
+    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
     "price": "$73.22",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -867,7 +866,7 @@
     "id": 97,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/154x153.png/cc0000/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$61.34",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -885,7 +884,7 @@
     "id": 99,
     "category": "Dog",
     "product": "Pants",
-    "image": "http://dummyimage.com/120x155.bmp/ff4444/ffffff",
+    "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$79.81",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -894,7 +893,7 @@
     "id": 100,
     "category": "Dog",
     "product": "Shirt",
-    "image": "http://dummyimage.com/112x115.png/5fa2dd/ffffff",
+    "image": "https://cdn3.bigcommerce.com/s-5izvlmftw0/products/29402/images/45568/This_Face_Tho.__29065.1475252635.190.285.jpg?c=2",
     "price": "$59.11",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
