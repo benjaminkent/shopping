@@ -5,6 +5,8 @@ import './App.css'
 import Trending from './Trending'
 import MensShirts from './MensShirts'
 import MensPants from './MensPants'
+import MensShoes from './MensShoes'
+import MensAllProducts from './MensAllProducts'
 
 class App extends Component {
   render() {
@@ -19,9 +21,11 @@ class App extends Component {
           </div>
         </section>
 
-        {/* <Trending /> */}
+        <Trending />
         {/* <MensShirts /> */}
-        <MensPants />
+        {/* <MensPants /> */}
+        {/* <MensShoes /> */}
+        {/* <MensAllProducts /> */}
 
         {/* footer here, stays on main page === not component */}
         <footer className="footer">
