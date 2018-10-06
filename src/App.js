@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import Data from './Data.json'
 
 class App extends Component {
   render() {
@@ -61,10 +62,43 @@ class App extends Component {
         {/* cards, this part of the page will be dynamically created with components, will route to other components */}
         <section class="section">
           <div class="container">
-            <div class="columns is-multiline is-mobile is-2">
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
-              <div class="column is-one-quarter">is-one-quarter</div>
+            <div class="columns is-multiline">
+              <div class="column">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[5].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[10].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-quarter">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by4">
+                      <img src={Data[7].image} alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">An amazing article of clothing</div>
+                  </div>
+                </div>
+              </div>
               <div class="column is-one-quarter">is-one-quarter</div>
               <div class="column is-one-quarter">is-one-quarter</div>
               <div class="column is-one-quarter">is-one-quarter</div>
