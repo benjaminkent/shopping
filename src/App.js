@@ -58,6 +58,21 @@ class App extends Component {
             here. Thanks for visiting!
           </p>
         </section>
+        {/* cards, this part of the page will be dynamically created with components, will route to other components */}
+        <section class="section">
+          <div class="container">
+            <div class="columns is-multiline is-mobile is-2">
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+              <div class="column is-one-quarter">is-one-quarter</div>
+            </div>
+          </div>
+        </section>
       </div>
     )
   }
