@@ -5,49 +5,59 @@ class App extends Component {
   render() {
     return (
       <div>
-        <section class="hero is-success">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">The Universe's Best Shopping Site</h1>
+        {/* header */}
+        <section className="hero is-success">
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title">The Universe's Best Shopping Site</h1>
             </div>
           </div>
         </section>
-        <div class="tabs is-centered">
+        {/* navigation bar */}
+        <div className="tabs is-centered">
           <ul>
-            <li class="is-active">
+            <li className="is-active">
               <a>
-                <span class="icon is-small">
-                  <i class="fas fa-home" />{' '}
+                <span className="icon is-small">
+                  <i className="fas fa-home" />{' '}
                 </span>
                 <span>TUBSS Home</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small">
-                  <i class="fas fa-male" />
+                <span className="icon is-small">
+                  <i className="fas fa-male" />
                 </span>
                 <span>Men</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small">
-                  <i class="fas fa-female" />{' '}
+                <span className="icon is-small">
+                  <i className="fas fa-female" />{' '}
                 </span>
                 <span>Women</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small">
-                  <i class="fas fa-paw" />{' '}
+                <span className="icon is-small">
+                  <i className="fas fa-paw" />{' '}
                 </span>
                 <span>Dog</span>
               </a>
             </li>
           </ul>
         </div>
+        {/* welcome section */}
+        <section className="welcome">
+          <h2>Welcome to the best shopping site in the entire Universe!</h2>
+          <p>
+            Find what tickles your fancy and have an awesome time while you're
+            here. Thanks for visiting!
+          </p>
+        </section>
       </div>
     )
   }

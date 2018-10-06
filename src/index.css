@@ -1,0 +1,18 @@
+h2,
+p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.welcome {
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 50px 0;
+}
+
+div.tabs.is-centered {
+  margin: 0;
+}
