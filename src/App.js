@@ -5,7 +5,7 @@ import Data from './Data.json'
 
 import './App.css'
 import Trending from './Trending'
-import ShirtsMain from './ShirtsMain'
+import DepartmentMain from './DepartmentMain'
 import MensPants from './MensPants'
 import MensShoes from './MensShoes'
 import MensAllProducts from './MensAllProducts'
@@ -33,7 +33,7 @@ class App extends Component {
 
             <Switch>
               <Route exact path="/" component={Trending} />
-              <Route exact path="/:category" component={ShirtsMain} />
+              <Route exact path="/:category" component={DepartmentMain} />
               <Route path="/:category/:product" component={MensPants} />
 
               <MensPants />

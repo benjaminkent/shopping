@@ -5,13 +5,13 @@ import Data from './Data.json'
 
 class ShirtsMain extends Component {
   render() {
-    const type = this.props.match.params.category
+    const all = this.props.match.params.category
 
-    const shirts = Data.filter(
-      card => card.category === `${type}` && card.product === 'Shirt'
-    )
+    const allProducts = Data.filter(card => card.category === `${all}`)
 
-    console.log(shirts)
+    // const shirts = Data.filter(
+    //   card => card.category === `${type}` && card.product === 'Shirt'
+    // )
 
     return (
       <>
@@ -55,7 +55,7 @@ class ShirtsMain extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong class="department-name">{type} Department</strong>
+              <strong class="department-name">{all} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
@@ -65,6 +65,11 @@ class ShirtsMain extends Component {
           >
             <ul>
               <li>
+                <a href="#" aria-current="page">
+                  All Products
+                </a>
+              </li>
+              <li className="is-active">
                 <a href="#">Shirts</a>
               </li>
               <li className="is-active">
@@ -73,11 +78,6 @@ class ShirtsMain extends Component {
               <li className="is-active">
                 <a href="#">Shoes</a>
               </li>
-              <li className="is-active">
-                <a href="#" aria-current="page">
-                  All Products
-                </a>
-              </li>
             </ul>
           </nav>
         </section>
@@ -85,7 +85,7 @@ class ShirtsMain extends Component {
         <section className="section">
           <div className="container">
             <div className="columns is-multiline">
-              {shirts.map(card => {
+              {allProducts.map(card => {
                 return (
                   <div className="column is-one-third">
                     <div className="card">
