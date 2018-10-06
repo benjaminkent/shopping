@@ -3,6 +3,7 @@ import Data from './Data.json'
 
 import './App.css'
 import Trending from './Trending'
+import Mens from './Mens'
 
 class App extends Component {
   render() {
@@ -18,98 +19,8 @@ class App extends Component {
         </section>
 
         {/* <Trending /> */}
+        <Mens />
 
-        <div className="tabs is-centered">
-          <ul>
-            <li>
-              <a>
-                <span className="icon is-small">
-                  <i className="fas fa-home" />
-                </span>
-                <span>TUBSS Home</span>
-              </a>
-            </li>
-            <li className="is-active">
-              <a>
-                <span className="icon is-small">
-                  <i className="fas fa-male" />
-                </span>
-                <span>Mens</span>
-              </a>
-            </li>
-            <li>
-              <a>
-                <span className="icon is-small">
-                  <i className="fas fa-female" />
-                </span>
-                <span>Womens</span>
-              </a>
-            </li>
-            <li>
-              <a>
-                <span className="icon is-small">
-                  <i className="fas fa-paw" />
-                </span>
-                <span>Dogs</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* mens department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
-        <section class="section">
-          <div class="container">
-            <h1 class="subtitle">
-              <strong>Men's Department</strong>
-            </h1>
-          </div>
-          {/* here is department navbar */}
-          <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
-            <ul>
-              <li>
-                <a href="#">Shirts</a>
-              </li>
-              <li class="is-active">
-                <a href="#">Pants</a>
-              </li>
-              <li class="is-active">
-                <a href="#">Shoes</a>
-              </li>
-              <li class="is-active">
-                <a href="#" aria-current="page">
-                  All Products
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-        {/* cards go next in separate section. cards, three columns. all detail */}
-        <section class="section">
-          <div class="container">
-            <div className="column is-one-third">
-              <div className="card">
-                <div className="card-content">
-                  <div className="content">
-                    <strong>{Data[5].description}</strong>
-                  </div>
-                  <div className="card-image">
-                    <figure className="image is-4by4">
-                      <img src={Data[5].image} alt="Placeholder image" />
-                    </figure>
-                  </div>
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <p>Price: {Data[5].price}</p>
-                    <a href="#">
-                      Rating: {Data[5].rating}{' '}
-                      <i className="far fa-thumbs-up" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         {/* footer here, stays on main page === not component */}
         <footer className="footer">
           <div className="content has-text-centered">
