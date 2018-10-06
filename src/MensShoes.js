@@ -54,7 +54,7 @@ class MensShoes extends Component {
           </div>
           {/* here is department navbar */}
           <nav
-            className="breadcrumb has-arrow-separator"
+            className="container breadcrumb has-arrow-separator"
             aria-label="breadcrumbs"
           >
             <ul>

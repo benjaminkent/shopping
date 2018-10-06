@@ -45,7 +45,7 @@ class DogsShirts extends Component {
             </li>
           </ul>
         </div>
-        {/* mens department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
+        {/*department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
@@ -54,7 +54,7 @@ class DogsShirts extends Component {
           </div>
           {/* here is department navbar */}
           <nav
-            className="breadcrumb has-arrow-separator"
+            className="container breadcrumb has-arrow-separator"
             aria-label="breadcrumbs"
           >
             <ul>
