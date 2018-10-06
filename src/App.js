@@ -62,6 +62,25 @@ class App extends Component {
               <strong>Men's Department</strong>
             </h1>
           </div>
+          {/* here is department navbar */}
+          <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+            <ul>
+              <li>
+                <a href="#">Shirts</a>
+              </li>
+              <li class="is-active">
+                <a href="#">Pants</a>
+              </li>
+              <li class="is-active">
+                <a href="#">Shoes</a>
+              </li>
+              <li class="is-active">
+                <a href="#" aria-current="page">
+                  All Products
+                </a>
+              </li>
+            </ul>
+          </nav>
         </section>
 
         {/* footer here, stays on main page === not component */}
