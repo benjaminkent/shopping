@@ -3,9 +3,15 @@ import Data from './Data.json'
 
 class MensShirts extends Component {
   render() {
-    const mensShirts = Data.filter(
-      card => card.category === 'Mens' && card.product === 'Shirt'
+    console.log(this.props.match.params.category)
+
+    let type = this.props.match.params.category
+
+    const shirts = Data.filter(
+      card => card.category === `${type}` && card.product === 'Shirt'
     )
+
+    console.log(shirts)
 
     return (
       <>
@@ -49,7 +55,7 @@ class MensShirts extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong>Men's Department</strong>
+              <strong>{type} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
@@ -79,7 +85,7 @@ class MensShirts extends Component {
         <section className="section">
           <div className="container">
             <div className="columns is-multiline">
-              {mensShirts.map(card => {
+              {shirts.map(card => {
                 return (
                   <div className="column is-one-third">
                     <div className="card">
