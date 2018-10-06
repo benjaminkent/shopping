@@ -3,7 +3,8 @@ import Data from './Data.json'
 
 import './App.css'
 import Trending from './Trending'
-import Mens from './Mens'
+import MensShirts from './MensShirts'
+import MensPants from './MensPants'
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
         </section>
 
         {/* <Trending /> */}
-        <Mens />
+        {/* <MensShirts /> */}
+        <MensPants />
 
         {/* footer here, stays on main page === not component */}
         <footer className="footer">

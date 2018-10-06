@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import Data from './Data.json'
 
-class Mens extends Component {
+class MensShirts extends Component {
   render() {
     const mensShirts = Data.filter(
       card => card.category === 'Mens' && card.product === 'Shirt'
     )
-
-    console.log(mensShirts)
 
     return (
       <>
@@ -116,4 +114,4 @@ class Mens extends Component {
   }
 }
 
-export default Mens
+export default MensShirts
