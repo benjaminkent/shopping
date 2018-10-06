@@ -3,6 +3,9 @@ import Data from './Data.json'
 
 class WomensShirts extends Component {
   render() {
+    const womensMain = this.props.match.params
+    console.log(womensMain)
+
     const WomensShirts = Data.filter(
       card => card.category === 'Womens' && card.product === 'Shirt'
     )

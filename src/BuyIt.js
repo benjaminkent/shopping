@@ -43,10 +43,10 @@ class BuyIt extends Component {
             </li>
           </ul>
         </div>
-        <section class="section buy-it-main">
-          <div class="container">
-            <div class="columns">
-              <div class="column is-half">
+        <section className="section buy-it-main">
+          <div className="container">
+            <div className="columns">
+              <div className="column is-half">
                 <div className="card">
                   <div className="card-content">
                     <div className="card-image">
@@ -57,8 +57,8 @@ class BuyIt extends Component {
                   </div>
                 </div>
               </div>
-              <div class="column is-half">
-                <div class="card">
+              <div className="column is-half">
+                <div className="card">
                   <div className="card-content">
                     <div className="content">
                       <h1>
@@ -68,14 +68,14 @@ class BuyIt extends Component {
                       </h1>
                     </div>
                   </div>
-                  <div class="card-content">
-                    <div class="content">{Data[0].description}</div>
+                  <div className="card-content">
+                    <div className="content">{Data[0].description}</div>
                   </div>
-                  <footer class="card-footer">
-                    <a href="#" class="card-footer-item">
+                  <footer className="card-footer">
+                    <a href="#" className="card-footer-item">
                       {Data[0].price}
                     </a>
-                    <a href="#" class="card-footer-item">
+                    <a href="#" className="card-footer-item">
                       {Data[0].rating}
                       <i className="far fa-thumbs-up thumbs-up" />
                     </a>
@@ -90,9 +90,9 @@ class BuyIt extends Component {
                     <option value="large">Large</option>
                     <option value="x-large">Extra Large</option>
                   </select>
-                  <a class="button is-success">
+                  <a className="button is-success">
                     Add to
-                    <i class="fas fa-shopping-cart" />
+                    <i className="fas fa-shopping-cart" />
                   </a>
                 </div>
               </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+
 import Data from './Data.json'
 
 import './App.css'
@@ -20,44 +22,51 @@ import BuyIt from './BuyIt'
 class App extends Component {
   render() {
     return (
-      <>
-        <div>
-          {/* header, always present === not component */}
-          <section className="hero is-success">
-            <div className="hero-body">
-              <div className="container">
-                <h1 className="title">The Universe's Best Shopping Site</h1>
+      <div>
+        <Router>
+          <>
+            <section className="hero is-success">
+              <div className="hero-body">
+                <div className="container">
+                  <h1 className="title">The Universe's Best Shopping Site</h1>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
 
-          <Trending />
-          <MensShirts />
-          <MensPants />
-          <MensShoes />
-          <MensAllProducts />
-          <WomensShoes />
-          <WomensShirts />
-          <WomensPants />
-          <WomensAllProducts />
-          <DogsShirts />
-          <DogsPants />
-          <DogsShoes />
-          <DogsAllProducts />
-          <BuyIt />
+            <Switch>
+              <Route exact path="/" component={Trending} />
+              <Route exact path="/:mens" component={MensShirts} />
+              {/* <Route exact path="/:womens" component={WomensShirts} /> */}
 
-          {/* footer here, stays on main page === not component */}
-          <footer className="footer">
-            <div className="content has-text-centered">
-              <p>
-                Made with <i className="fas fa-heart" /> in St Petersburg, FL.
-                2018 Benjamin Kent,
-                <a href="http://benjaminkent.io/"> benjaminkent.io</a>
-              </p>
-            </div>
-          </footer>
-        </div>
-      </>
+              {/* <Trending /> */}
+              {/* <MensShirts /> */}
+              <MensPants />
+              <MensShoes />
+              <MensAllProducts />
+              <WomensShoes />
+              <WomensShirts />
+              <WomensPants />
+              <WomensAllProducts />
+              <DogsShirts />
+              <DogsPants />
+              <DogsShoes />
+              <DogsAllProducts />
+              <BuyIt />
+            </Switch>
+            {/* footer here, stays on main page === not component */}
+            <footer className="footer">
+              <div className="content has-text-centered">
+                <p>
+                  Made with <i className="fas fa-heart" /> in St Petersburg, FL.
+                  2018 Benjamin Kent,
+                  <a href="http://benjaminkent.io/"> benjaminkent.io</a>
+                </p>
+              </div>
+            </footer>
+          </>
+        </Router>
+        {/* header, always present === not component */}
+      </div>
     )
   }
 }

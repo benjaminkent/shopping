@@ -81,7 +81,7 @@ class MensPants extends Component {
             <div className="columns is-multiline">
               {mensPants.map(card => {
                 return (
-                  <div className="column is-one-third">
+                  <div key={card.id} className="column is-one-third">
                     <div className="card">
                       <div className="card-content">
                         <div className="content">
