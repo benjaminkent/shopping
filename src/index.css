@@ -32,3 +32,11 @@ section.section {
 .fa-heart {
   color: #8e0103;
 }
+
+.thumbs-up {
+  padding-left: 3px;
+}
+
+.ind-product {
+  text-align: center;
+}

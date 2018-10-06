@@ -53,7 +53,7 @@ class App extends Component {
                 <span>TUBSS Home</span>
               </a>
             </li>
-            <li className="is-active">
+            <li>
               <a>
                 <span className="icon is-small">
                   <i className="fas fa-male" />
@@ -79,62 +79,44 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        <section className="section">
-          <div className="container">
-            <h1 className="subtitle">
-              <strong>Men's Department</strong>
-            </h1>
-          </div>
-          {/* here is department navbar */}
-          <nav
-            className="container breadcrumb has-arrow-separator"
-            aria-label="breadcrumbs"
-          >
-            <ul>
-              <li className="is-active">
-                <a href="#">Shirts</a>
-              </li>
-              <li>
-                <a href="#">Pants</a>
-              </li>
-              <li className="is-active">
-                <a href="#">Shoes</a>
-              </li>
-              <li className="is-active">
-                <a href="#" aria-current="page">
-                  All Products
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </section>
+        <section className="section">{/* here is department navbar */}</section>
         <section class="section">
           <div class="container">
             <div class="columns">
               <div class="column is-half">
                 <div className="card">
                   <div className="card-content">
-                    <div className="content">
-                      <strong>{Data[0].description}</strong>
-                    </div>
                     <div className="card-image">
                       <figure className="image is-4by4">
                         <img src={Data[0].image} alt="Placeholder image" />
                       </figure>
                     </div>
                   </div>
-                  <div className="card-content">
-                    <div className="content">
-                      <p>Price: {Data[0].price}</p>
-                      <a href="#">
-                        Rating: {Data[0].rating}{' '}
-                        <i className="far fa-thumbs-up" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
-              <div class="column is-half">Auto</div>
+              <div class="column is-half">
+                <div class="card">
+                  <div className="card-content">
+                    <div className="content">
+                      <strong>
+                        {Data[0].category} {Data[0].product}
+                      </strong>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">{Data[0].description}</div>
+                  </div>
+                  <footer class="card-footer">
+                    <a href="#" class="card-footer-item">
+                      {Data[0].price}
+                    </a>
+                    <a href="#" class="card-footer-item">
+                      {Data[0].rating}
+                      <i className="far fa-thumbs-up thumbs-up" />
+                    </a>
+                  </footer>
+                </div>
+              </div>
             </div>
           </div>
         </section>
