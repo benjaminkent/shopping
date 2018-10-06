@@ -108,6 +108,36 @@ class App extends Component {
             </ul>
           </nav>
         </section>
+        <section class="section">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-half">
+                <div className="card">
+                  <div className="card-content">
+                    <div className="content">
+                      <strong>{Data[0].description}</strong>
+                    </div>
+                    <div className="card-image">
+                      <figure className="image is-4by4">
+                        <img src={Data[0].image} alt="Placeholder image" />
+                      </figure>
+                    </div>
+                  </div>
+                  <div className="card-content">
+                    <div className="content">
+                      <p>Price: {Data[0].price}</p>
+                      <a href="#">
+                        Rating: {Data[0].rating}{' '}
+                        <i className="far fa-thumbs-up" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-half">Auto</div>
+            </div>
+          </div>
+        </section>
         {/* footer here, stays on main page === not component */}
         <footer className="footer">
           <div className="content has-text-centered">
