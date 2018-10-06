@@ -26,7 +26,7 @@ class Trending extends Component {
                 <span className="icon is-small">
                   <i className="fas fa-male" />
                 </span>
-                <span>Men</span>
+                <span>Mens</span>
               </a>
             </li>
             <li>
@@ -34,7 +34,7 @@ class Trending extends Component {
                 <span className="icon is-small">
                   <i className="fas fa-female" />
                 </span>
-                <span>Women</span>
+                <span>Womens</span>
               </a>
             </li>
             <li>
@@ -42,7 +42,7 @@ class Trending extends Component {
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
-                <span>Dog</span>
+                <span>Dogs</span>
               </a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ class Trending extends Component {
             <div className="columns is-multiline">
               {featuredFilter.map(card => {
                 return (
-                  <div className="column is-one-quarter">
+                  <div key={card.id} className="column is-one-quarter">
                     <div className="card">
                       <div className="card-image">
                         <figure className="image is-4by4">
@@ -74,7 +74,8 @@ class Trending extends Component {
                       <div className="card-content">
                         <div className="content">{card.description}</div>
                         <div className="content">
-                          Rating: {card.rating} <i class="far fa-thumbs-up" />
+                          Rating: {card.rating}{' '}
+                          <i className="far fa-thumbs-up" />
                         </div>
                       </div>
                     </div>
