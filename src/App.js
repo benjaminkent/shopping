@@ -5,15 +5,13 @@ import Data from './Data.json'
 
 import './App.css'
 import Trending from './Trending'
-import MensShirts from './MensShirts'
+import ShirtsMain from './ShirtsMain'
 import MensPants from './MensPants'
 import MensShoes from './MensShoes'
 import MensAllProducts from './MensAllProducts'
 import WomensShoes from './WomensShoes'
-import WomensShirts from './WomensShirts'
 import WomensPants from './WomensPants'
 import WomensAllProducts from './WomensAllProducts'
-import DogsShirts from './DogsShirts'
 import DogsPants from './DogsPants'
 import DogsShoes from './DogsShoes'
 import DogsAllProducts from './DogsAllProducts'
@@ -35,7 +33,7 @@ class App extends Component {
 
             <Switch>
               <Route exact path="/" component={Trending} />
-              <Route path="/:category" component={MensShirts} />
+              <Route path="/:category" component={ShirtsMain} />
               {/* <Route exact path="/:womens" component={WomensShirts} /> */}
 
               {/* <Trending /> */}
@@ -44,10 +42,8 @@ class App extends Component {
               <MensShoes />
               <MensAllProducts />
               <WomensShoes />
-              <WomensShirts />
               <WomensPants />
               <WomensAllProducts />
-              <DogsShirts />
               <DogsPants />
               <DogsShoes />
               <DogsAllProducts />

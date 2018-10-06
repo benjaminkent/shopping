@@ -1,55 +1,63 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+
 import Data from './Data.json'
 
-class DogsShirts extends Component {
+class ShirtsMain extends Component {
   render() {
-    const dogsShirts = Data.filter(
-      card => card.category === 'Dogs' && card.product === 'Shirt'
+    console.log(this.props.match.params.category)
+
+    const type = this.props.match.params.category
+
+    const shirts = Data.filter(
+      card => card.category === `${type}` && card.product === 'Shirt'
     )
+
+    console.log(shirts)
 
     return (
       <>
         <div className="tabs is-centered">
           <ul>
             <li>
-              <a>
+              <Link to="/">
                 <span className="icon is-small">
                   <i className="fas fa-home" />
                 </span>
                 <span>TUBSS Home</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/mens">
                 <span className="icon is-small">
                   <i className="fas fa-male" />
                 </span>
                 <span>Mens</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/womens">
                 <span className="icon is-small">
                   <i className="fas fa-female" />
                 </span>
                 <span>Womens</span>
-              </a>
+              </Link>
             </li>
-            <li className="is-active">
-              <a>
+            <li>
+              <Link to="dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
                 <span>Dogs</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
-        {/*department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
+        {/* mens department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong>Dog Department</strong>
+              <strong class="department-name">{type} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
@@ -79,7 +87,7 @@ class DogsShirts extends Component {
         <section className="section">
           <div className="container">
             <div className="columns is-multiline">
-              {dogsShirts.map(card => {
+              {shirts.map(card => {
                 return (
                   <div className="column is-one-third">
                     <div className="card">
@@ -114,4 +122,4 @@ class DogsShirts extends Component {
   }
 }
 
-export default DogsShirts
+export default ShirtsMain

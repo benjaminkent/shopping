@@ -64,3 +64,7 @@ section.section {
 .buy-it-main {
   margin-top: 2rem;
 }
+
+.department-name {
+  text-transform: capitalize;
+}
