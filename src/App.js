@@ -79,8 +79,8 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        <section className="section">{/* here is department navbar */}</section>
-        <section class="section">
+
+        <section class="section buy-it-main">
           <div class="container">
             <div class="columns">
               <div class="column is-half">
@@ -98,9 +98,11 @@ class App extends Component {
                 <div class="card">
                   <div className="card-content">
                     <div className="content">
-                      <strong>
-                        {Data[0].category} {Data[0].product}
-                      </strong>
+                      <h1>
+                        <strong>
+                          {Data[0].category} {Data[0].product}
+                        </strong>
+                      </h1>
                     </div>
                   </div>
                   <div class="card-content">
@@ -127,7 +129,7 @@ class App extends Component {
                   </select>
                   <a class="button is-success">
                     Add to
-                    <i class="fas fa-shopping-cart shopping-cart" />
+                    <i class="fas fa-shopping-cart" />
                   </a>
                 </div>
               </div>
