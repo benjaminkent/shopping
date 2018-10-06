@@ -28,3 +28,7 @@ section.section {
 .card-content {
   text-align: center;
 }
+
+.fa-heart {
+  color: #8e0103;
+}

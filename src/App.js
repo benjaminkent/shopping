@@ -167,6 +167,16 @@ class App extends Component {
             </div>
           </div>
         </section>
+        {/* footer here, stays on main page === not component */}
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              Made with <i class="fas fa-heart" /> in St Petersburg, FL. 2018
+              Benjamin Kent,
+              <a href="http://benjaminkent.io/"> benjaminkent.io</a>
+            </p>
+          </div>
+        </footer>
       </div>
     )
   }
