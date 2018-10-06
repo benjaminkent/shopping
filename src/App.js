@@ -17,7 +17,53 @@ class App extends Component {
           </div>
         </section>
 
-        <Trending />
+        {/* <Trending /> */}
+
+        <div className="tabs is-centered">
+          <ul>
+            <li>
+              <a>
+                <span className="icon is-small">
+                  <i className="fas fa-home" />
+                </span>
+                <span>TUBSS Home</span>
+              </a>
+            </li>
+            <li className="is-active">
+              <a>
+                <span className="icon is-small">
+                  <i className="fas fa-male" />
+                </span>
+                <span>Mens</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span className="icon is-small">
+                  <i className="fas fa-female" />
+                </span>
+                <span>Womens</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span className="icon is-small">
+                  <i className="fas fa-paw" />
+                </span>
+                <span>Dogs</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        {/* mens department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
+        <section class="section">
+          <div class="container">
+            <h1 class="subtitle">
+              <strong>Men's Department</strong>
+            </h1>
+          </div>
+        </section>
+
         {/* footer here, stays on main page === not component */}
         <footer className="footer">
           <div className="content has-text-centered">
