@@ -17,7 +17,7 @@ class Trending extends Component {
             will be dynamically created and will sever as the home page */}
         <div className="tabs is-centered">
           <ul>
-            <li className="is-active">
+            <li>
               <Link to="/">
                 <span className="icon is-small">
                   <i className="fas fa-home" />

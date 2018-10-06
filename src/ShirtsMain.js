@@ -5,8 +5,6 @@ import Data from './Data.json'
 
 class ShirtsMain extends Component {
   render() {
-    console.log(this.props.match.params.category)
-
     const type = this.props.match.params.category
 
     const shirts = Data.filter(
