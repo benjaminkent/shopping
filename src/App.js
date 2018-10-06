@@ -116,6 +116,20 @@ class App extends Component {
                     </a>
                   </footer>
                 </div>
+                <div className="buy">
+                  <select className="size">
+                    <option value="choose-size">Choose your Size</option>
+                    <option value="x-small">Extra Small</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">Extra Large</option>
+                  </select>
+                  <a class="button is-success">
+                    Add to
+                    <i class="fas fa-shopping-cart shopping-cart" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
