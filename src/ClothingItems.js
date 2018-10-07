@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 class ClothingItems extends Component {
   render() {
-    const clothing = this.props.match.params.category
+    const department = this.props.match.params.category
     const items = this.props.match.params.product
+    const id = Data.id
 
     const departmentItems = Data.filter(
-      card => card.category === `${clothing}` && card.product === `${items}`
+      card => card.category === `${department}` && card.product === `${items}`
     )
 
     return (
@@ -53,32 +54,32 @@ class ClothingItems extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong class="department-name">{clothing} Department</strong>
+              <strong class="department-name">{department} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
-          <div class="tabs is-toggle is-toggle-rounded is-small">
+          <div class="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li className="is-active">
-                <Link to={`/${clothing}`}>
+                <Link to={`/${department}`}>
                   <span class="is-small" />
                   <span>All Products</span>
                 </Link>
               </li>
               <li>
-                <Link to={`/${clothing}/shirts`}>
+                <Link to={`/${department}/shirts`}>
                   <span class="is-small" />
                   <span>Shirts</span>
                 </Link>
               </li>
               <li>
-                <Link to={`/${clothing}/pants`}>
+                <Link to={`/${department}/pants`}>
                   <span class="is-small" />
                   <span>Pants</span>
                 </Link>
               </li>
               <li>
-                <Link to={`/${clothing}/shoes`}>
+                <Link to={`/${department}/shoes`}>
                   <span class="is-small" />
                   <span>Shoes</span>
                 </Link>
@@ -100,7 +101,9 @@ class ClothingItems extends Component {
                         </div>
                         <div className="card-image">
                           <figure className="image is-4by4">
-                            <img src={card.image} alt="Placeholder image" />
+                            <Link to={`/${department}/${items}/${id}`}>
+                              <img src={card.image} alt="Placeholder image" />
+                            </Link>
                           </figure>
                         </div>
                       </div>

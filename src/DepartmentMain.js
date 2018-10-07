@@ -55,7 +55,7 @@ class ShirtsMain extends Component {
             </h1>
           </div>
           {/* here is department navbar */}
-          <div class="tabs is-toggle is-toggle-rounded is-small">
+          <div class="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li className="is-active">
                 <Link to={`/${department}`}>

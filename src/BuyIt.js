@@ -5,11 +5,16 @@ import Data from './Data.json'
 
 class BuyIt extends Component {
   render() {
-    const index = this.props.match.params.index
+    const id = this.props.match.params.id
 
-    const imageURL = Data[index].image
+    const product = Data[id].product
+    const department = Data[id].category
+    const description = Data[id].description
+    const rating = Data[id].rating
+    const price = Data[id].price
+    const imageURL = Data[id].image
 
-    console.log(index)
+    console.log(id)
 
     return (
       <>
@@ -71,20 +76,20 @@ class BuyIt extends Component {
                     <div className="content">
                       <h1>
                         <strong>
-                          {Data[0].category} {Data[0].product}
+                          {department} {product}
                         </strong>
                       </h1>
                     </div>
                   </div>
                   <div className="card-content">
-                    <div className="content">{Data[0].description}</div>
+                    <div className="content">{description}</div>
                   </div>
                   <footer className="card-footer">
                     <a href="#" className="card-footer-item">
-                      {Data[0].price}
+                      {price}
                     </a>
                     <a href="#" className="card-footer-item">
-                      {Data[0].rating}
+                      {rating}
                       <i className="far fa-thumbs-up thumbs-up" />
                     </a>
                   </footer>

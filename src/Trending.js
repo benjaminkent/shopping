@@ -5,8 +5,6 @@ import Data from './Data.json'
 
 class Trending extends Component {
   render() {
-    const type = this.props.match.params.category
-
     const featuredFilter = Data.filter(card => card.rating === 5)
 
     return (
@@ -26,7 +24,7 @@ class Trending extends Component {
               </Link>
             </li>
             <li>
-              <Link to="mens">
+              <Link to="/mens">
                 <span className="icon is-small">
                   <i className="fas fa-male" />
                 </span>
@@ -34,7 +32,7 @@ class Trending extends Component {
               </Link>
             </li>
             <li>
-              <Link to="womens">
+              <Link to="/womens">
                 <span className="icon is-small">
                   <i className="fas fa-female" />
                 </span>
@@ -42,7 +40,7 @@ class Trending extends Component {
               </Link>
             </li>
             <li>
-              <Link to="dogs">
+              <Link to="/dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
