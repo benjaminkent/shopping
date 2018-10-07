@@ -26,9 +26,12 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Trending} />
               <Route exact path="/:category" component={DepartmentMain} />
-              <Route path="/:category/:product" component={ClothingItems} />
-
-              <BuyIt />
+              <Route
+                exact
+                path="/:category/:product"
+                component={ClothingItems}
+              />
+              <Route path="/:category/:product/:index" component={BuyIt} />
             </Switch>
             {/* footer here, stays on main page === not component */}
             <footer className="footer">

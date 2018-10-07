@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+
 import Data from './Data.json'
 
 class BuyIt extends Component {
@@ -10,36 +12,36 @@ class BuyIt extends Component {
         <div className="tabs is-centered">
           <ul>
             <li>
-              <a>
+              <Link to="/">
                 <span className="icon is-small">
                   <i className="fas fa-home" />
                 </span>
                 <span>TUBSS Home</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/mens">
                 <span className="icon is-small">
                   <i className="fas fa-male" />
                 </span>
                 <span>Mens</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/womens">
                 <span className="icon is-small">
                   <i className="fas fa-female" />
                 </span>
                 <span>Womens</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
                 <span>Dogs</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
