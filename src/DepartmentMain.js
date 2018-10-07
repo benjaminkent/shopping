@@ -5,9 +5,9 @@ import Data from './Data.json'
 
 class ShirtsMain extends Component {
   render() {
-    const all = this.props.match.params.category
+    const department = this.props.match.params.category
 
-    const allProducts = Data.filter(card => card.category === `${all}`)
+    const allProducts = Data.filter(card => card.category === `${department}`)
 
     return (
       <>
@@ -38,7 +38,7 @@ class ShirtsMain extends Component {
               </Link>
             </li>
             <li>
-              <Link to="dogs">
+              <Link to="/dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
@@ -51,31 +51,38 @@ class ShirtsMain extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong class="department-name">{all} Department</strong>
+              <strong class="department-name">{department} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
-          <nav
-            className="container breadcrumb has-arrow-separator"
-            aria-label="breadcrumbs"
-          >
+          <div class="tabs is-toggle is-toggle-rounded is-small">
             <ul>
+              <li className="is-active">
+                <Link to={`/${department}`}>
+                  <span class="is-small" />
+                  <span>All Products</span>
+                </Link>
+              </li>
               <li>
-                <a href="#" aria-current="page">
-                  All Products
-                </a>
+                <Link to={`/${department}/shirts`}>
+                  <span class="is-small" />
+                  <span>Shirts</span>
+                </Link>
               </li>
-              <li className="is-active">
-                <a href="#">Shirts</a>
+              <li>
+                <Link to={`/${department}/pants`}>
+                  <span class="is-small" />
+                  <span>Pants</span>
+                </Link>
               </li>
-              <li className="is-active">
-                <a href="#">Pants</a>
-              </li>
-              <li className="is-active">
-                <a href="#">Shoes</a>
+              <li>
+                <Link to={`/${department}/shoes`}>
+                  <span class="is-small" />
+                  <span>Shoes</span>
+                </Link>
               </li>
             </ul>
-          </nav>
+          </div>
         </section>
         {/* cards go next in separate section. cards, three columns. all detail */}
         <section className="section">

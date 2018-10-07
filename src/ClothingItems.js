@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Data from './Data.json'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
-class MensPants extends Component {
+class ClothingItems extends Component {
   render() {
     const clothing = this.props.match.params.category
     const items = this.props.match.params.product
@@ -23,7 +23,7 @@ class MensPants extends Component {
                 <span>TUBSS Home</span>
               </Link>
             </li>
-            <li className="is-active">
+            <li>
               <Link to="/mens">
                 <span className="icon is-small">
                   <i className="fas fa-male" />
@@ -57,27 +57,34 @@ class MensPants extends Component {
             </h1>
           </div>
           {/* here is department navbar */}
-          <nav
-            className="container breadcrumb has-arrow-separator"
-            aria-label="breadcrumbs"
-          >
+          <div class="tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li className="is-active">
-                <a href="#">Shirts</a>
+                <a>
+                  <span class="is-small" />
+                  <span>All Products</span>
+                </a>
               </li>
               <li>
-                <a href="#">Pants</a>
+                <a>
+                  <span class="is-small" />
+                  <span>Shirts</span>
+                </a>
               </li>
-              <li className="is-active">
-                <a href="#">Shoes</a>
+              <li>
+                <a>
+                  <span class="is-small" />
+                  <span>Pants</span>
+                </a>
               </li>
-              <li className="is-active">
-                <a href="#" aria-current="page">
-                  All Products
+              <li>
+                <a>
+                  <span class="is-small" />
+                  <span>Shoes</span>
                 </a>
               </li>
             </ul>
-          </nav>
+          </div>
         </section>
         {/* cards go next in separate section. cards, three columns. all detail */}
         <section className="section">
@@ -118,4 +125,4 @@ class MensPants extends Component {
   }
 }
 
-export default MensPants
+export default ClothingItems
