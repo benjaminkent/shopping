@@ -70,13 +70,17 @@ class Trending extends Component {
                     <div className="card">
                       <div className="card-image">
                         <figure className="image is-4by4">
-                          <img src={card.image} alt="Placeholder image" />
+                          <Link
+                            to={`/${card.category}/${card.product}/${card.id}`}
+                          >
+                            <img src={card.image} alt="Placeholder image" />
+                          </Link>
                         </figure>
                       </div>
                       <div className="card-content">
                         <div className="content">{card.description}</div>
                         <div className="content">
-                          Rating: {card.rating}{' '}
+                          Rating: {card.rating}
                           <i className="far fa-thumbs-up" />
                         </div>
                       </div>

@@ -75,7 +75,7 @@ class BuyIt extends Component {
                   <div className="card-content">
                     <div className="content">
                       <h1>
-                        <strong>
+                        <strong className="buy-item-name">
                           {department} {product}
                         </strong>
                       </h1>

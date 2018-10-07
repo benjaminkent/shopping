@@ -68,3 +68,7 @@ section.section {
 .department-name {
   text-transform: capitalize;
 }
+
+.buy-item-name {
+  text-transform: capitalize;
+}

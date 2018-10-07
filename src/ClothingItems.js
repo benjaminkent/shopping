@@ -101,7 +101,7 @@ class ClothingItems extends Component {
                         </div>
                         <div className="card-image">
                           <figure className="image is-4by4">
-                            <Link to={`/${department}/${items}/${id}`}>
+                            <Link to={`/${department}/${items}/${card.id}`}>
                               <img src={card.image} alt="Placeholder image" />
                             </Link>
                           </figure>

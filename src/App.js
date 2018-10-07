@@ -18,7 +18,9 @@ class App extends Component {
             <section className="hero is-success">
               <div className="hero-body">
                 <div className="container">
-                  <h1 className="title">The Universe's Best Shopping Site</h1>
+                  <Link to="/">
+                    <h1 className="title">The Universe's Best Shopping Site</h1>
+                  </Link>
                 </div>
               </div>
             </section>
