@@ -5,9 +5,12 @@ import Data from './Data.json'
 
 class BuyIt extends Component {
   render() {
-    const id = this.props.match.params.id
+    const index = this.props.match.params.index
 
-    const imageURL = Data[id].image
+    const imageURL = Data[index].image
+
+    console.log(index)
+
     return (
       <>
         {/* final buy item page. 2 columns. image left. description, price, rate, buy button and size selector on right */}
