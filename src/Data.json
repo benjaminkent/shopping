@@ -57,7 +57,7 @@
     "id": 7,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Rs02AJHNL._UX385_.jpg",
     "price": "$144.91",
     "rating": 4,
     "description": "An Amazing Article of Clothing"
@@ -137,7 +137,7 @@
   {
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/0239/9277/products/0204_Empowered-Women_Grey-Ladies-Tee_1050x.jpg?v=1524342456",
     "price": "$14.30",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -146,9 +146,9 @@
     "id": 17,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://i.etsystatic.com/8681548/r/il/c1df4d/1550958410/il_fullxfull.1550958410_jjc3.jpg",
     "price": "$13.12",
-    "rating": 3,
+    "rating": 5,
     "description": "An Amazing Article of Clothing"
   },
   {
@@ -337,7 +337,7 @@
     "product": "shoes",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61KAzXZAU8L._SY355_.jpg",
     "price": "$39.12",
-    "rating": 5,
+    "rating": 1,
     "description": "An Amazing Article of Clothing"
   },
   {
@@ -445,14 +445,14 @@
     "product": "pants",
     "image": "http://cdn.shopify.com/s/files/1/1735/1667/products/DA15033B_grande.jpg?v=1529349747",
     "price": "$146.72",
-    "rating": 5,
+    "rating": 3,
     "description": "An Amazing Article of Clothing"
   },
   {
     "id": 51,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/0239/9277/products/0351-WV-W_1050x.jpg?v=1524400244",
     "price": "$79.15",
     "rating": 5,
     "description": "An Amazing Article of Clothing"
@@ -479,9 +479,9 @@
     "id": 54,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T347A231MPA540PT17X0Y4D1008224145S47/views/1,width=378,height=378,appearanceId=231,backgroundColor=E8E8E8,version=1527149446/cat-hair-is-lonely-people-glitter-women-s-t-shirt.jpg",
     "price": "$28.12",
-    "rating": 2,
+    "rating": 3,
     "description": "An Amazing Article of Clothing"
   },
   {
@@ -490,7 +490,7 @@
     "product": "pants",
     "image": "https://i.pinimg.com/474x/53/71/40/5371406f199eb34cc2ede42bf96a5bd1.jpg",
     "price": "$52.14",
-    "rating": 4,
+    "rating": 5,
     "description": "An Amazing Article of Clothing"
   },
   {
@@ -560,7 +560,7 @@
     "id": 63,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://images.prod.meredith.com/product/6334abdffdd83899f818bbe904c470d1/1507372851181/l/breast-cancer-awareness-t-shirt-save-second-base-boobies-fight-cure-womens-tee-by-pray-for-a-cure",
     "price": "$32.45",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -578,7 +578,7 @@
     "id": 65,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zcMzPY2VgM6lDQTS8JGjABIPmVj9KHYZxnXbC1IdYqCnR6nb",
     "price": "$18.84",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
@@ -659,7 +659,7 @@
     "id": 74,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://images.prod.meredith.com/product/50173204149f657e98e34e4e3dc04db9/1518862177449/l/womens-fancy-af-premium-slim-fit-sassy-and-snarky-gift-t-shirts-xl-heather-blue",
     "price": "$35.54",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -668,7 +668,7 @@
     "id": 75,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/0690/5113/products/18471_5ab2aa65ce0553.45259769_MWopethereitis.W.flat_1e97f2f5-edf4-4523-afd0-e512655cc610_1000x.jpg?v=1531174841",
     "price": "$81.59",
     "rating": 1,
     "description": "An Amazing Article of Clothing"
@@ -677,7 +677,7 @@
     "id": 76,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71kcLbl%2BLLL._UX679_.jpg",
     "price": "$128.42",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -776,7 +776,7 @@
     "id": 87,
     "category": "mens",
     "product": "shirts",
-    "image": "https://cdn.shopify.com/s/files/1/2313/5135/products/Fascinating_ALT_2000x.png?v=1511320846",
+    "image": "https://cdn.shopify.com/s/files/1/0690/5113/products/20287_5b1addb15365a3.99500576_https___erply.s3.amazonaws.com_291525_pictures_10333_5748a376cff354.92411016_Ranch_1000x.jpg?v=1533326433",
     "price": "$122.83",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -785,7 +785,7 @@
     "id": 88,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/0749/8789/products/Megan_Lee_Designs_Midwest_is_Best_Women_T_Tri-Indigo_Gray_grande.jpg?v=1522242275",
     "price": "$28.30",
     "rating": 2,
     "description": "An Amazing Article of Clothing"
@@ -848,7 +848,7 @@
     "id": 95,
     "category": "womens",
     "product": "shirts",
-    "image": "https://www.alexandra.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nf2_pu_front.jpg",
+    "image": "https://image.spreadshirtmedia.com/image-server/v1/products/1006914657/views/1,width=650,height=650,appearanceId=386,version=1527149446/funny-computer-programmer-fueled-by-chocolate-gift-womens-tee-shirt.jpg",
     "price": "$73.22",
     "rating": 3,
     "description": "An Amazing Article of Clothing"
