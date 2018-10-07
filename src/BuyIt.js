@@ -5,6 +5,9 @@ import Data from './Data.json'
 
 class BuyIt extends Component {
   render() {
+    const id = this.props.match.params.id
+
+    const imageURL = Data[id].image
     return (
       <>
         {/* final buy item page. 2 columns. image left. description, price, rate, buy button and size selector on right */}
@@ -36,7 +39,7 @@ class BuyIt extends Component {
               </Link>
             </li>
             <li>
-              <Link to="dogs">
+              <Link to="/dogs">
                 <span className="icon is-small">
                   <i className="fas fa-paw" />
                 </span>
@@ -53,7 +56,7 @@ class BuyIt extends Component {
                   <div className="card-content">
                     <div className="card-image">
                       <figure className="image is-4by4">
-                        <img src={Data[0].image} alt="Placeholder image" />
+                        <img src={imageURL} alt="Placeholder image" />
                       </figure>
                     </div>
                   </div>

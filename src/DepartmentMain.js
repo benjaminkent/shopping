@@ -98,7 +98,11 @@ class ShirtsMain extends Component {
                         </div>
                         <div className="card-image">
                           <figure className="image is-4by4">
-                            <img src={card.image} alt="Placeholder image" />
+                            <Link
+                              to={`/${department}/${card.product}/${card.id}`}
+                            >
+                              <img src={card.image} alt="Placeholder image" />
+                            </Link>
                           </figure>
                         </div>
                       </div>
