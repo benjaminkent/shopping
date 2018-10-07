@@ -106,7 +106,7 @@ class ShirtsMain extends Component {
                         <div className="content">
                           <p>Price: {card.price}</p>
                           <a href="#">
-                            Rating: {card.rating}{' '}
+                            Rating: {card.rating}
                             <i className="far fa-thumbs-up" />
                           </a>
                         </div>

@@ -53,35 +53,35 @@ class ClothingItems extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong>Mens Department</strong>
+              <strong class="department-name">{clothing} Department</strong>
             </h1>
           </div>
           {/* here is department navbar */}
           <div class="tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li className="is-active">
-                <a>
+                <Link to={`/${clothing}`}>
                   <span class="is-small" />
                   <span>All Products</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a>
+                <Link to={`/${clothing}/shirts`}>
                   <span class="is-small" />
                   <span>Shirts</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a>
+                <Link to={`/${clothing}/pants`}>
                   <span class="is-small" />
                   <span>Pants</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a>
+                <Link to={`/${clothing}/shoes`}>
                   <span class="is-small" />
                   <span>Shoes</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

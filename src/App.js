@@ -7,14 +7,6 @@ import './App.css'
 import Trending from './Trending'
 import DepartmentMain from './DepartmentMain'
 import ClothingItems from './ClothingItems'
-import MensShoes from './MensShoes'
-import MensAllProducts from './MensAllProducts'
-import WomensShoes from './WomensShoes'
-import WomensPants from './WomensPants'
-import WomensAllProducts from './WomensAllProducts'
-import DogsPants from './DogsPants'
-import DogsShoes from './DogsShoes'
-import DogsAllProducts from './DogsAllProducts'
 import BuyIt from './BuyIt'
 
 class App extends Component {
@@ -36,14 +28,6 @@ class App extends Component {
               <Route exact path="/:category" component={DepartmentMain} />
               <Route path="/:category/:product" component={ClothingItems} />
 
-              <MensShoes />
-              <MensAllProducts />
-              <WomensShoes />
-              <WomensPants />
-              <WomensAllProducts />
-              <DogsPants />
-              <DogsShoes />
-              <DogsAllProducts />
               <BuyIt />
             </Switch>
             {/* footer here, stays on main page === not component */}
