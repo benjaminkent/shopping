@@ -76,10 +76,7 @@ class ClothingItems extends Component {
           <div className="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li>
-                <NavLink
-                  to={`/${department}`}
-                  ActiveClassName="product-clicked"
-                >
+                <NavLink to={`/${department}`}>
                   <span className="is-small" />
                   <span>All Products</span>
                 </NavLink>
@@ -129,7 +126,7 @@ class ClothingItems extends Component {
             <div className="columns is-multiline">
               {departmentItems.map(card => {
                 return (
-                  <div className="column is-one-third">
+                  <div key={card.id} className="column is-one-third">
                     <div className="card">
                       <div className="card-content">
                         <div className="content">
