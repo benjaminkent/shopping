@@ -7,12 +7,14 @@ class BuyIt extends Component {
   render() {
     const id = this.props.match.params.id
 
-    const product = Data[id].product
-    const department = Data[id].category
-    const description = Data[id].description
-    const rating = Data[id].rating
-    const price = Data[id].price
-    const imageURL = Data[id].image
+    const item = Data.find(datum => datum.id === parseInt(id))
+
+    const product = item.product
+    const department = item.category
+    const description = item.description
+    const rating = item.rating
+    const price = item.price
+    const imageURL = item.image
 
     console.log(id)
 

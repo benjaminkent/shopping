@@ -6,6 +6,7 @@ import Data from './Data.json'
 class Trending extends Component {
   render() {
     const featuredFilter = Data.filter(card => card.rating === 5)
+    console.log(featuredFilter)
 
     return (
       <>
