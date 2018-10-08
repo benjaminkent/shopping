@@ -6,7 +6,6 @@ class ClothingItems extends Component {
   render() {
     const department = this.props.match.params.category
     const items = this.props.match.params.product
-    const id = Data.id
 
     const departmentItems = Data.filter(
       card => card.category === `${department}` && card.product === `${items}`
@@ -60,7 +59,7 @@ class ClothingItems extends Component {
           {/* here is department navbar */}
           <div class="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
-              <li className="is-active">
+              <li>
                 <Link to={`/${department}`}>
                   <span class="is-small" />
                   <span>All Products</span>

@@ -58,6 +58,42 @@ class BuyIt extends Component {
             </li>
           </ul>
         </div>
+        <section className="section">
+          <div className="container">
+            <h1 className="subtitle">
+              <strong class="department-name">{department} Department</strong>
+            </h1>
+          </div>
+          {/* here is department navbar */}
+          <div class="container tabs is-toggle is-toggle-rounded is-small">
+            <ul>
+              <li>
+                <Link to={`/${department}`}>
+                  <span class="is-small" />
+                  <span>All Products</span>
+                </Link>
+              </li>
+              <li>
+                <Link to={`/${department}/shirts`}>
+                  <span class="is-small" />
+                  <span>Shirts</span>
+                </Link>
+              </li>
+              <li>
+                <Link to={`/${department}/pants`}>
+                  <span class="is-small" />
+                  <span>Pants</span>
+                </Link>
+              </li>
+              <li>
+                <Link to={`/${department}/shoes`}>
+                  <span class="is-small" />
+                  <span>Shoes</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
         <section className="section buy-it-main">
           <div className="container">
             <div className="columns">
