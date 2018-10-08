@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import Data from './Data.json'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  NavLink
+} from 'react-router-dom'
+import { blue } from 'ansi-colors'
 
 class ClothingItems extends Component {
   constructor(props) {
@@ -69,28 +76,49 @@ class ClothingItems extends Component {
           <div className="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li>
-                <Link to={`/${department}`}>
+                <NavLink
+                  to={`/${department}`}
+                  ActiveClassName="product-clicked"
+                >
                   <span className="is-small" />
                   <span>All Products</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to={`/${department}/shirts`}>
+                <NavLink
+                  to={`/${department}/shirts`}
+                  activeStyle={{
+                    color: '#3273dc',
+                    fontWeight: 'bold'
+                  }}
+                >
                   <span className="is-small" />
                   <span>Shirts</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to={`/${department}/pants`}>
+                <NavLink
+                  to={`/${department}/pants`}
+                  activeStyle={{
+                    color: '#3273dc',
+                    fontWeight: 'bold'
+                  }}
+                >
                   <span className="is-small" />
                   <span>Pants</span>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to={`/${department}/shoes`}>
+                <NavLink
+                  to={`/${department}/shoes`}
+                  activeStyle={{
+                    color: '#3273dc',
+                    fontWeight: 'bold'
+                  }}
+                >
                   <span className="is-small" />
                   <span>Shoes</span>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
