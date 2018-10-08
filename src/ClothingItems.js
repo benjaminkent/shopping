@@ -3,6 +3,13 @@ import Data from './Data.json'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 class ClothingItems extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      class: ''
+    }
+  }
   render() {
     const department = this.props.match.params.category
     const items = this.props.match.params.product
@@ -53,33 +60,35 @@ class ClothingItems extends Component {
         <section className="section">
           <div className="container">
             <h1 className="subtitle">
-              <strong class="department-name">{department} Department</strong>
+              <strong className="department-name">
+                {department} Department
+              </strong>
             </h1>
           </div>
           {/* here is department navbar */}
-          <div class="container tabs is-toggle is-toggle-rounded is-small">
+          <div className="container tabs is-toggle is-toggle-rounded is-small">
             <ul>
               <li>
                 <Link to={`/${department}`}>
-                  <span class="is-small" />
+                  <span className="is-small" />
                   <span>All Products</span>
                 </Link>
               </li>
               <li>
                 <Link to={`/${department}/shirts`}>
-                  <span class="is-small" />
+                  <span className="is-small" />
                   <span>Shirts</span>
                 </Link>
               </li>
               <li>
                 <Link to={`/${department}/pants`}>
-                  <span class="is-small" />
+                  <span className="is-small" />
                   <span>Pants</span>
                 </Link>
               </li>
               <li>
                 <Link to={`/${department}/shoes`}>
-                  <span class="is-small" />
+                  <span className="is-small" />
                   <span>Shoes</span>
                 </Link>
               </li>
