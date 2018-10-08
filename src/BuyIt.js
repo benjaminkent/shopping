@@ -60,7 +60,7 @@ class BuyIt extends Component {
         </div>
         <section className="section">
           <div className="container">
-            <h1 className="subtitle">
+            <h1 className="subtitle department">
               <strong class="department-name">{department} Department</strong>
             </h1>
           </div>

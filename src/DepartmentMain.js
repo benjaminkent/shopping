@@ -50,7 +50,7 @@ class ShirtsMain extends Component {
         {/* mens department, will have header as intro. breadcrumbs for shirt, pant, shoe. columns, 3 wide. */}
         <section className="section">
           <div className="container">
-            <h1 className="subtitle">
+            <h1 className="subtitle department">
               <strong class="department-name">{department} Department</strong>
             </h1>
           </div>
