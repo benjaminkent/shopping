@@ -16,8 +16,6 @@ class BuyIt extends Component {
     const price = item.price
     const imageURL = item.image
 
-    console.log(id)
-
     return (
       <>
         {/* final buy item page. 2 columns. image left. description, price, rate, buy button and size selector on right */}
