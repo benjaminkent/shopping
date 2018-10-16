@@ -1,3 +1,3 @@
 # Shopping Site
 
-<img src="./images/shopping.png">
+<img src="./public/images/shopping.png">
