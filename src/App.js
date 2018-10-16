@@ -40,7 +40,7 @@ class App extends Component {
               <div className="content has-text-centered">
                 <p>
                   Made with <i className="fas fa-heart" /> in St Petersburg, FL.
-                  2018 Benjamin Kent,
+                  2018 Benjamin Kent Jehl,
                   <a href="http://benjaminkent.io/"> benjaminkent.io</a>
                 </p>
               </div>
